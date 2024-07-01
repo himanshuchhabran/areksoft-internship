@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F5F6FA;
+}
+
+.container{
+    width: 1440px;
+    height: 1070px;        
+    background-color: #F5F6FA;
+    
+}
+.sidebar{
+    width: 240px;
+    height: 1070px;
+    background-color: #FFFFFF;
+}
+.topbar{
+    width: 1201px;
+    height: 70px;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    background-color: #FFFFFF;
+}
+.pricing-text {
+    width: 103px;
+    height: 44px;
+    position: absolute;
+    top: 100px;
+    left: 269px;
+    font-family: 'Nunito Sans';
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 43.65px;
+    letter-spacing: -0.11428570002317429px;
+    text-align: left;
+    color: #202224;
+}
+
+.pricing-card1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 848px;
+    position: absolute;
+    top: 175px;
+    left: 269px;
+    padding-top: 40px;
+    background-color:#FFFFFF ;
+}
+
+.card1-heading {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.monthly-charge-text{
+    font-size: 16px;
+    color: #212121;
+}
+.price-div{
+    font-size: 46px;
+    color:#4880FF;
+    font-weight: bolder;
+}
+
+.pricing-card1 p,
+.pricing-card1 button {
+    margin: 10px 0; 
+    padding: 0; 
+}
+
+.pricing-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 848px;
+    position: absolute;
+    top: 175px;
+    left: 659px;
+    padding-top: 40px;
+    background-color:#FFFFFF ;
+}
