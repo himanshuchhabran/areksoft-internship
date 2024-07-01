@@ -14,8 +14,47 @@ body{
 .sidebar{
     width: 240px;
     height: 1070px;
+    position: absolute;
     background-color: #FFFFFF;
 }
+
+
+
+.sidebar h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li.active, .side-nav ul li:hover {
+    background-color: #e7f1ff;
+    color: #007bff;
+}
+
+.sidebar ul li.active {
+    font-weight: bold;
+}
+
+.sidebar ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
 .topbar{
     width: 1201px;
     height: 70px;
@@ -51,6 +90,8 @@ body{
     left: 269px;
     padding-top: 40px;
     background-color:#FFFFFF ;
+    border-radius: 24px;
+
 }
 
 .card1-heading {
@@ -69,8 +110,9 @@ body{
     font-weight: bolder;
 }
 
-.pricing-card1 p,
-.pricing-card1 button {
+.pricing-card1 p ,.pricing-card2 p,
+.pricing-card3 p 
+ {
     margin: 10px 0; 
     padding: 0; 
 }
@@ -86,4 +128,58 @@ body{
     left: 659px;
     padding-top: 40px;
     background-color:#FFFFFF ;
+    border-radius: 24px;
+
 }
+.pricing-card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 848px;
+    position: absolute;
+    top: 175px;
+    left: 1049px;
+    padding-top: 40px;
+    background-color:#FFFFFF ;
+    border-radius: 24px;
+
+}
+.divider {
+    width: 80%;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0; 
+}
+
+.deactivate{
+    opacity: 40%;
+}
+
+.free-trial-text{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #212121;
+font-weight: bold;
+}
+
+.get-started-button{
+    border: 2px solid #4880FF;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4880FF;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+}
+.get-started-button:hover{
+    background-color: #4880FF;
+    color: #FFFFFF;
+}
+ 
