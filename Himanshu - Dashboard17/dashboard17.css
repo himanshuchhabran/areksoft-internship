@@ -11,49 +11,49 @@ body{
     background-color: #F5F6FA;
     
 }
+
 .sidebar{
     width: 240px;
     height: 1070px;
     position: absolute;
     background-color: #FFFFFF;
+    
 }
 
-
-
-.sidebar h2 {
-    color: #007bff;
-    margin-bottom: 20px;
+.logo-name{
+    color:#4880FF;
+    padding-left: 70px;
 }
-
-.sidebar ul {
+.sidebar-nav{
     list-style: none;
+    padding: 0;
 }
 
+.sidebar-nav li a {
+    display: block;
+    padding: 12px 15px;
+    color: #202224;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.sidebar-nav li:hover,.sidebar-nav li.active {
+    background-color: #4880FF;
+    color:#FFFFFF;
+}
+
+.sidebar-nav li a i {
+    margin-right: 10px;
+}
 .sidebar ul li {
     display: flex;
     align-items: center;
-    padding: 10px 15px;
-    margin-bottom: 10px;
+    padding: 5px 10px;
     color: #333;
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
 
-.sidebar ul li.active, .side-nav ul li:hover {
-    background-color: #e7f1ff;
-    color: #007bff;
-}
-
-.sidebar ul li.active {
-    font-weight: bold;
-}
-
-.sidebar ul li img {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-}
 
 .topbar{
     width: 1201px;
