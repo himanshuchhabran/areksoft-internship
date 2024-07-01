@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashStack - Add Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="dashboard31.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2><i class="fas fa-tachometer-alt"></i> DashStack</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i> Products</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Favorites</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> Inbox</a></li>
+                <li><a href="#"><i class="fas fa-clipboard-list"></i> Order Lists</a></li>
+                <li><a href="#"><i class="fas fa-boxes"></i> Product Stock</a></li>
+                <li><a href="#"><i class="fas fa-money-bill-wave"></i> Pricing</a></li>
+                <li><a href="#"><i class="fas fa-calendar-alt"></i> Calendar</a></li>
+                <li><a href="#"><i class="fas fa-tasks"></i> To-Dos</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i> Contact</a></li>
+                <li><a href="#"><i class="fas fa-file-invoice"></i> Invoice</a></li>
+                <li><a href="#"><i class="fas fa-code"></i> UI Elements</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="#"><i class="fas fa-table"></i> Table</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-power-off"></i> Logout</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="header">
+                <div class="logo">DashStack</div>
+                <div class="user-profile">
+                    <div class="dropdown">
+                        <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&d=mm&r=g" alt="User Profile">
+                        <div class="dropdown-content">
+                            <a href="#">Moni Roy</a>
+                            <a href="#">Admin</a>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <img src="https://www.countryflags.io/gb/flat/64.png" alt="English Flag">
+                        English
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <h1>Add New Contact</h1>
+            <div class="form-container">
+                <div class="user-profile">
+                    <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&d=mm&r=g" alt="User Profile">
+                    <button>Edit Photo</button>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input type="text" id="first-name" class="form-input" placeholder="Kevin">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" id="last-name" class="form-input" placeholder="Fleming">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your email</label>
+                        <input type="email" id="email" class="form-input" placeholder="jaskolski.brent@yahoo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone-number" class="form-input" placeholder="546-933-2772">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date-of-birth" class="form-label">Date of Birth</label>
+                        <input type="date" id="date-of-birth" class="form-input" value="1995-08-11">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select id="gender" class="form-input">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn-primary">Add Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
