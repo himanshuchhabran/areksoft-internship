@@ -62,7 +62,105 @@ body{
     left: 240px;
     top: 0;
     background-color: #FFFFFF;
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+    align-items: center;
+    margin-bottom: 20px;
 }
+.search-bar {
+    
+    display: flex;
+    align-items: self-start;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 8px 12px;
+    border:1px solid rgb(194, 194, 194);
+margin-right: 350px;
+
+}
+.search-bar i {
+    margin-right: 8px;
+    color:grey;
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    width:300px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+.profile-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.notification-bar img{
+    width: 29px;
+    height: 30px;
+}
+.country-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.country-image img{
+    width: 40px;
+    height: 27px;
+}
+ select{
+    background: transparent ;
+    outline: none;
+    width: 70px;
+    height: 19px;
+    border: none;
+}
+select:focus{
+    outline: none;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.profile-image img{
+    width: 50px;
+    height: 52px;
+    border-radius: 50%;
+}
+.profile-name{
+    display: flex;
+    flex-direction: column;
+
+}
+.admin-name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.1px;
+    color: #404040;
+}
+.admin{
+    font-size: 12px;
+    line-height: 16.37px;
+    font-weight: 600;
+    color: #565656;
+}
+
 .pricing-text {
     width: 103px;
     height: 44px;
